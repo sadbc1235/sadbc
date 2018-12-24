@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>회원 가입</title>
+  <style>
+    /*1. 네비게이션바 를 이용해 메뉴를 작성
+          (메인, 이력서, 회원가입)
+
+      메인 이력서 회원가입               아이디:[   ] 패스워드:[   ] [로그인](버튼)
+    ========================================================================
+    2. 이력서를 css를 적용하여 재작성(div로작성 table=x)
+    3. 회원가입 페이지를 css를 적용하여 재작성
+    4. 모든 CSS는 CSS파일로 저장하여 웹페이지에서 연결하여 사용 */
+  </style>
+  <link rel="stylesheet" href="new.css">
+</head>
+<body>
+  <p>
+  <ul>
+    <li><a href="main.html">메인</a></li>
+    <li><a href="report.html">이력서</a></li>
+    <li><a href="newuser.html">회원가입</a></li>
+  <ul style="float:right; list-style-type:none;">
+    <li><a href="#">아이디 : <input type="text" name="id"></a></li>
+    <li><a href="#">패스워드 : <input type="password" name="password"></a></li>
+    <li><a href="#"><input type="button" name="login" value="로그인"></a></li>
+  </ul>
+  </ul>
+  </p>
+  <p>
+    <header>
+      <h2>회원 가입</h2>
+    </header>
+  </p>
+  <p>
+  <section>
+    <div class="header">사이트 이용정보 입력</div>
+    <div class="box1">
+      <div class="id">아이디</div>
+      <div class="password">비밀번호</div>
+      <div class="id2">비밀번호 확인</div>
+    </div>
+    <div class="box2">
+      <div>
+        영문자,숫자,_ 만 입력 가능. 최소3자이상 입력하세요. <br>
+        <input type="text" name="id" value="put your id">
+      </div>
+      <div class="middle"><input type="password" name="password"></div>
+      <div id="bottom"><input type="password" name="password"></div>
+    </div>
+  </section>
+  </p>
+  <p>
+    <article>
+      <div class="header">개인정보 입력</div>
+      <div class="box1">
+        <div class="name">이름</div>
+        <div class="nickname">닉네임</div>
+        <div class="mail">E-mail</div>
+      </div>
+      <div class="box2">
+        <div class="put"><input type="text" name="name" value="put your name"></div>
+        <div class="middle"><input type="text" name="nickname" value="put your nickname"></div>
+        <div class="bottom"><input type="text" name="E-mail"> @
+                <select name="E-mail kind">
+                  <option value="naver" selected>naver.com</option>
+                  <option value="google">google.com</option>
+                  <option value="daum">daum.com</option>
+                  <option value="yahoo">yahoo.com</option>
+                </select>
+        </div>
+      </div>
+    </article>
+  </p>
+  <p>
+    <footer>
+      <div class="header">기타 개인설정</div>
+      <div class="box1">
+        <div class="service">메일링서비스</div>
+        <div class="imformation">정보 공개</div>
+        <div class="textarea">하고싶은 말을<br>적으세요.</div>
+      </div>
+      <div class="box2">
+        <div class="check">
+          <input type="checkbox" name="mailing">정보메일 을 받겠습니다.
+        </div>
+        <div class="check">
+          <input type="checkbox" name="security">다른분들이 나의 정보를 보수있도록합니다.
+        </div>
+        <div class="text"><textarea>여기에 입력하시면 됩니다.!</textarea></div>
+      </div>
+    </footer>
+  </p>
+</body>
+</html>

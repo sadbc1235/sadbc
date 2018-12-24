@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>이력서</title>
+  <style>
+    /*1. 네비게이션바 를 이용해 메뉴를 작성
+          (메인, 이력서, 회원가입)
+
+      메인 이력서 회원가입               아이디:[   ] 패스워드:[   ] [로그인](버튼)
+    ========================================================================
+    2. 이력서를 css를 적용하여 재작성(div로작성 table=x)
+    3. 회원가입 페이지를 css를 적용하여 재작성
+    4. 모든 CSS는 CSS파일로 저장하여 웹페이지에서 연결하여 사용 */
+  </style>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <p>
+  <ul>
+    <li><a href="main.html">메인</a></li>
+    <li><a href="report.html">이력서</a></li>
+    <li><a href="newuser.html">회원가입</a></li>
+  <ul style="float:right; list-style-type:none;">
+    <li><a href="#">아이디 : <input type="text" name="id"></a></li>
+    <li><a href="#">패스워드 : <input type="password" name="password"></a></li>
+    <li><a href="#"><input type="button" name="login" value="로그인"></a></li>
+  </ul>
+  </ul>
+  </p>
+  <div class="page">
+    <p>
+      <header>
+        <h2>이 력 서</h2>
+      </header>
+    </p>
+    <p>
+    <nav><!-- 자기정보 -->
+      <img src="people2.jpg">
+      <span>
+        <div class="name kind">성명</div>
+        <div class="imformation name">김은수</div>
+        <div class="kind">생년월일</div>
+        <div class="imformation">2000년 3월 30일</div>
+        <div class="kind">E-mail</div>
+        <div class="imformation sns">sadbc1235@naver.com</div>
+        <div class="kind2">SNS</div>
+        <div class="imformation2"><a href="#">facebook</a></div>
+        <div class="kind">연락처</div>
+        <div class="imformation sns">010-1234-5678</div>
+        <div class="kind2">긴급연락처</div>
+        <div class="imformation2">010-8282-9898</div>
+        <div class="kind">주소</div>
+        <div class="imformation">서울</div>
+      </span>
+    </nav>
+    </p>
+    <p>
+    <section> <!-- 학력사항 -->
+      <div class="header back"><br>학력<br>사항</div>
+      <div class="header1">입학년월</div>
+      <div class="header2">졸업년월</div>
+      <div class="header3">학교명</div>
+      <div class="header4">전공</div>
+      <div class="header5">졸업구분</div>
+      <div class="header6">소재지</div>
+      <div class="article"><br>2013-03-02<br>2016-03-02</div>
+      <div class="article1"><br>2016-02-07<br>2019-02-01</div>
+      <div class="article2"><br>방학중학교<br>경기기계공고</div>
+      <div class="article3"><br>X<br>메카</div>
+      <div class="article4"><br>졸업<br>졸업</div>
+      <div class="article5"><br>서울<br>서울</div>
+    </section>
+    </p>
+    <p>
+    <section id="section2">
+      <div class="back">취득일자</div>
+      <div>2018.03.24</div>
+      <div>2018.04.03</div>
+      <div>2018.04.26</div>
+      <div class="bottom">2018.07.06</div>
+    </section>
+    <section id="section3">
+      <div class="back">종 &nbsp&nbsp&nbsp류</div>
+      <div>네트워크 관리사2급</div>
+      <div>PC정비사 2급</div>
+      <div>정보처리기능사</div>
+      <div class="bottom">전자기기 기능사</div>
+    </section>
+    <section id="section4">
+      <div class="back">발급 기관</div>
+      <div>ICQA</div>
+      <div>ICQA</div>
+      <div>한국산업인력공단</div>
+      <div class="bottom">한국산업인력공단</div>
+    </section>
+    </p>
+    <p>
+    <section id="article2">
+      <div class="back">봉사일자</div>
+      <div>2018.03.24</div>
+      <div>2018.04.03</div>
+      <div class="bottom"></div>
+    </section>
+    <section id="article3">
+      <div class="back">봉사활동 내용</div>
+      <div>헌혈</div>
+      <div>복지관</div>
+      <div class="bottom"></div>
+    </section>
+    <section id="article4">
+      <div class="back">봉사활동 기관명</div>
+      <div>대한적십자협회</div>
+      <div>ㅇ ㅇ 복지관</div>
+      <div class="bottom"></div>
+    </section>
+    </p>
+    <footer>
+      <h3>지원서 상의 모든 기재사항은 사실과 다름이 없음을 확인합니다.</h3>
+      <h3>201x년 x월 x일 작성자 : 김은수</h3>
+    </footer>
+  </div>
+</body>
+</html>

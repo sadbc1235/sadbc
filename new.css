@@ -1,0 +1,180 @@
+/* main area */
+ul {
+  background-color: skyblue;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li {
+  float: left;
+  border-right: solid 1px white;
+}
+li:last-cihld { border-right: none;}
+li a {
+  display: block;
+  background-color: skyblue;
+  color: #000000;
+  padding: 8px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+}
+li a:hover {
+  background-color: lightblue;
+  color: white;
+}
+input {
+  width: 100px;
+  border: solid 2px black;
+  font-weight: bold;
+}
+/* main area */
+
+/* header area */
+header > h2 {
+  text-align: left;
+}
+/* header area */
+
+/* section area */
+section > .header {
+  font-weight: bold;
+  border-bottom: 3px solid black;
+}
+section > .box1 {
+  font-weight: bold;
+  border: 2px solid grey;
+  border-top: none;
+  width: 120px;
+}
+.box1 > .id {
+  border-bottom: 2px solid grey;
+  width: 120px;
+  height: 43px;
+  background-color: lightgrey;
+}
+.box1 > .password {
+  border-bottom: 2px solid grey;
+  width: 120px;
+  height: 25px;
+  background-color: lightgrey;
+}
+.box1 > .id2 {
+  background-color: lightgrey;
+  height: 25px;
+}
+section > .box2 {
+  font-weight: bold;
+  border: 2px solid grey;
+  border-top: none;
+  margin-left: 122px;
+  margin-top: -100px;
+}
+.box2 > div {
+  border-bottom: 2px solid grey;
+}
+.box2 > .middle {
+  height: 25px;
+}
+.box2 > #bottom {
+  border-bottom: none;
+  height: 25px;
+}
+/* section area */
+
+/* aricle area */
+article > .header {
+  font-weight: bold;
+  border-bottom: 3px solid black;
+}
+article > .box1 {
+  font-weight: bold;
+  border: 2px solid grey;
+  border-top: none;
+  width: 120px;
+}
+article > .box1 > .name {
+  border-bottom: 2px solid grey;
+  width: 120px;
+  height: 25px;
+  background-color: lightgrey;
+}
+article > .box1 > .nickname {
+  border-bottom: 2px solid grey;
+  width: 120px;
+  height: 25px;
+  background-color: lightgrey;
+}
+article > .box1 > .mail {
+  background-color: lightgrey;
+  height: 25px;
+}
+article > .box2 {
+  height: 79px;
+  font-weight: bold;
+  border: 2px solid grey;
+  border-top: none;
+  margin-left: 122px;
+  margin-top: -81px;
+}
+article > .box2 > div {
+  border-bottom: 2px solid grey;
+}
+article > .box2 > .middle {
+  height: 25px;
+}
+article > .box2 > .put {
+  height: 25px;
+}
+article > .box2 > .bottom {
+  border-bottom: none;
+  height: 50px;
+}
+article select {
+  width: 110px;
+  border: solid 1px black;
+}
+/* article area */
+
+/* footer area */
+footer > .header {
+  border-bottom: 3px solid black;
+  font-weight: bold;
+}
+footer > .box1 {
+  width: 120px;
+  border: 2px solid grey;
+  border-top: none;
+  background-color: lightgrey;
+}
+footer > .box1 > .service {
+  height: 40px;
+  border-bottom: 2px solid grey;
+}
+footer > .box1 > .imformation {
+  border-bottom: 2px solid grey;
+  height: 40px;
+}
+footer > .box2 {
+  border: 2px solid grey;
+  border-left: none;
+  border-top: none;
+  margin-left: 124px;
+  margin-top: -386px;
+}
+footer > .box2 > .check {
+  border-bottom: 2px solid grey;
+  height: 40px;
+}
+footer > .box2 > .text {
+  border: none;
+}
+footer > .box1 > .textarea {
+  height: 300px;
+}
+textarea {
+  width: 100%;
+  height: 290px;
+  font-size: 16px;
+}
